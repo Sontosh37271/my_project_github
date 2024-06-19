@@ -1,3 +1,9 @@
+1.clone this project 
+2.npm install
+3.npm install axios
+4.npm install react-router-dom
+5.npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
