@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    border-style: none;
+    outline: none;
+}
+
+body {
+    background-color: #F4F2FF;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    margin: 10px 60px 0px 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+::placeholder {
+    font-size: 12px;
+    color: #9A8F8F;
+}
+#selectCourse {
+    cursor: pointer;
+    height: 35px;
+    width: 164px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    /* background: #ED949B; */
+    background:blue;
+    color:white;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}
+select option {
+    background-color: white;
+    color: #9A8F8F;
+}
+
+.time1,
+.time2,
+.time3,
+.time4 {
+    font-size: 12px;
+    color: #9A8F8F;
+    width: 160px;
+    height: 35px;
+    margin-top: 6px;
+    background: #FFFFFF;
+    box-shadow: 3.41333px 3.41333px 10.24px 0.853333px rgba(0, 0, 0, 0.07);
+    border-radius: 6.82667px;
+}
+
+.time5 {
+    font-size: 12px;
+    color: #9A8F8F;
+    width: 308px;
+    height: 35px;
+    margin-top: 6px;
+    background: #FFFFFF;
+    box-shadow: 3.41333px 3.41333px 10.24px 0.853333px rgba(0, 0, 0, 0.07);
+    border-radius: 6.82667px;
+}

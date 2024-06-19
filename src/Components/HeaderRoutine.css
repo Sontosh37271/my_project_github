@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    border-style: none;
+    outline: none;
+}
+
+body {
+    background-color: #F4F2FF;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    margin: 10px 60px 0px 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+::placeholder {
+    font-size: 12px;
+    color: #9A8F8F;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 52px;
+    height: 52px;
+}
+.logoDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #1A1A1A;
+    margin-left: 10px;
+}
+#selectYear,
+#selectTeacher {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 16px 6px 24px;
+    margin-right: 20px;
+    width: 149px;
+    height: 37px;
+    background: blue;
+    border-radius: 8px;
+    border: 1px solid white;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}
+
+#selectYear {
+    cursor: pointer;
+    background: #ED949B;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}
+select option {
+    background-color: white;
+    color: #9A8F8F;
+}
+
+.login {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 32px;
+    gap: 10px;
+    width: 110px;
+    height: 37px;
+    background: #4E4DA8;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    color: #1A1A1A;
+    height: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 46px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #3D3030;
+}
+.headDown {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.headDown img {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.effective {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    padding: 6px 24px;
+    gap: 10px;
+    width: 224px;
+    height: 34px;
+    margin-bottom: 30px;
+    background: #EAE9FF;
+    border-radius: 12px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: -0.03em;
+    color: #8D8CA9;
+}

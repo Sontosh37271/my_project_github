@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    border-style: none;
+    outline: none;
+}
+
+body {
+    background-color: #F4F2FF;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    margin: 10px 60px 0px 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+::placeholder {
+    font-size: 12px;
+    color: #9A8F8F;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBottom img {
+    width: 24px;
+    height: 24px;
+}
+
+.footerBottom a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #716E6E;
+}
+
+.footerBottom p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #716E6E;
+}
+.footerRight {
+    display: flex;
+}

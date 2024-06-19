@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    border-style: none;
+    outline: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F2FF;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    margin: 10px 60px 0px 60px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+::placeholder {
+    font-size: 12px;
+    color: #9A8F8F;
+}
+h1 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #1A1A1A;
+    margin-left: 10px;
+}
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    color: #1A1A1A;
+    height: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 46px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #3D3030;
+}
+hr {
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    border: 1px solid rgba(173, 166, 255, 0.19);
+}
+.full-content{
+    margin-left: 50px;
+    max-width: 100%;
+    padding-left: 30px;
+    display: flex;
+
+}
+
+/* responsive */
+
+@media (max-width:477px) {
+
+    body {
+        width: 1380px;
+        zoom: 26%;
+    }
+}
+
+@media (min-width:1340px) {
+
+    body {
+        width: 1380px;
+        zoom: 90%;
+    }
+}
+
+@media (min-width:1530px) {
+
+    body {
+        width: 1380px;
+        zoom: 101%;
+    }
+}
+
+@media (min-width:1660px) {
+
+    body {
+        width: 1380px;
+        zoom: 104%;
+    }
+}
+
+@media (min-width:1880px) {
+
+    body {
+        width: 1380px;
+        zoom: 104%;
+    }
+}

@@ -1,0 +1,1 @@
+export const day =["saturday" ,"sunday","monday","tuesday","wednesday","thrusday"];
